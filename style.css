@@ -3,3 +3,77 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  text-align: center;
+}
+
+<img src="images/intro-pic.jpg" alt="A beautiful living room." class="center">
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.image-caption {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+}
+
+<figure>
+  <img src="images/intro-pic.jpg" alt="A beautiful living room.">
+  <figcaption class="image-caption">Your image caption</figcaption>
+</figure>
+
+.navbar {
+display: flex;
+justify-content: center;
+}
+
+.navbar a {
+padding: 0 10px;
+}
+
+.navbar a {
+  background-color: grey;
+}
+
+#featured-property {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 10px auto;
+  text-align: center; 
+}
+
+#details {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#details > div {
+  float: left;
+}
+
+.details {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+}
+
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+  text-align: center;
+  }
+  
+  .bottom-div {
+  width: 25%;
+  }
